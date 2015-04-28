@@ -25,7 +25,7 @@
 		<junit.version>4.12</junit.version>
 		<jsf.version>2.1</jsf.version>
 		<jsf.imp.version>2.2.9</jsf.imp.version>
-		<entitymanager.version>4.3.7.Final</entitymanager.version>
+		<entitymanager.version>4.3.9.Final</entitymanager.version>
 		<commons.collections.version>3.2.1</commons.collections.version>
 		<maven.compiler.version>3.1</maven.compiler.version>
 		<findbugs.maven.plugin.version>3.0.1</findbugs.maven.plugin.version>
@@ -40,6 +40,7 @@
 			<artifactId>junit</artifactId>
 			<version>${junit.version}</version>
 		</dependency>
+		
 		<dependency>
 			<groupId>javax.faces</groupId>
 			<artifactId>jsf-api</artifactId>
@@ -60,6 +61,18 @@
 			<artifactId>commons-collections</artifactId>
 			<version>${commons.collections.version}</version>
 		</dependency>
+		
+		<dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<version>5.1.35</version>
+</dependency>
+		<dependency>
+	<groupId>org.hibernate</groupId>
+	<artifactId>hibernate-core</artifactId>
+	<version>4.3.9.Final</version>
+</dependency>
+		
 	</dependencies>
 
 	<build>
